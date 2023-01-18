@@ -1,0 +1,59 @@
+{
+  "name": "Final_Project_BYHACH",
+  "version": "1.0.0",
+  "description": "React + node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omerta85/Final_project_BYHACH"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "Myroslav Zastavnyi <666omerta@gmail.com>",
+  "dependencies": {
+    "aws-sdk": "^2.1304.0",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "email-templates": "^10.0.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-handlebars": "^6.0.7",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "monaco-editor": "^0.34.1",
+    "mongoose": "^6.9.0",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^4.2.0",
+    "nodemailer": "^6.9.1",
+    "pm2": "^5.2.2",
+    "stream-chat": "^8.3.0",
+    "sweetalert2": "^11.7.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@types/nodemailer": "^6.4.7",
+    "axios": "^1.2.6",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
