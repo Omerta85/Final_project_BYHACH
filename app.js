@@ -6,7 +6,10 @@ const expressFileUpload = require('express-fileupload');
 const https = require('https');
 const fs = require('fs');
 
+
 require('dotenv').config();
+
+mongoose.set('strictQuery', false);
 
 const { PORT, DB_CONNECT_URL, ALLOWED_ORIGINS } = require('./config/variables');
 
