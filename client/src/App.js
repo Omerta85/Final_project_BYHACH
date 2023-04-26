@@ -38,7 +38,7 @@ function App() {
     const alerted = localStorage.getItem('alerted') || '';
     if (alerted !== 'yes') {
         Swal.fire({
-            title: 'Вам є 18?',
+            title: 'Вам точно 18?',
             text: "Входячи на наш сайт, ви погоджуєтесь, що вам є 18 років",
             icon: 'warning',
             showClass: {

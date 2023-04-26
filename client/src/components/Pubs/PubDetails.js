@@ -127,7 +127,7 @@ export default function PubDetails() {
                                 </div>
                             </div>
                         </div>
-                        <button className='btn-create' onClick={handleAlcogolic}>Пиячок<FontAwesomeIcon
+                        <button className='btn-create' onClick={handleAlcogolic}>Бухач<FontAwesomeIcon
                             icon={faGlassCheers}/></button>
 
                         <h5 className='mt-50'>Залишити відгук</h5>
@@ -243,7 +243,7 @@ export default function PubDetails() {
             </div>
             {recommendedPubs && !!recommendedPubs.length && (
                 <div>
-                    <h5 className='ml-20'>You might also like: (Пиячки рекомендують)</h5>
+                    <h5 className='ml-20'>You might also like: (Бухачки рекомендують)</h5>
                     <div className='paginate d-flex bp jc-se'>
                         {recommendedPubs.map(({name, address, order, rating, avatar, _id}) => (
                             <div className='recomended' key={_id}>

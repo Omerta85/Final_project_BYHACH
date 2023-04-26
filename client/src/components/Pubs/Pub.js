@@ -220,7 +220,7 @@ export default function Pub({pub, setCurrentId}) {
                             </div>
                         ) : (<div/>)}
                         <div className='mt-22'>
-                            <Typography>Пиячок - споживай відповідально!</Typography>
+                            <Typography>Бухач - споживай відповідально!</Typography>
                         </div>
                     </CardContent>
                 </Collapse>
